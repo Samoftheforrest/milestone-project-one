@@ -48,8 +48,11 @@ Thank you for visiting my project - if you have any questions please feel to con
 - For all the information to be contained within one page, with easily navigable sections.
 - For the website to reflect the artist, so that any users who visit the site have a clear idea of the artist's style.
 
-## Wireframes and Flowcharts
-### Wireframes
+## Wireframes
+
+I created the following wireframes using [Figma](https://www.figma.com)
+
+These wireframes demonstrate how to the information displayed varies across screen sizes - including any potential hidden content.
 
 #### Desktop Wireframes
 - [Main section](/screenshots/desktop-main.png)
@@ -75,6 +78,12 @@ Thank you for visiting my project - if you have any questions please feel to con
 ## Features
 
 ## Technologies used
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+### Frameworks
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Bugs
 
