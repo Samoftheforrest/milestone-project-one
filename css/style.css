@@ -9,6 +9,6 @@
     --cultured: #fafafaff;
 }
 
-h1 {
-    color: var(--oxford-blue);
+body {
+    background-color: var(--oxford-blue);
 }
