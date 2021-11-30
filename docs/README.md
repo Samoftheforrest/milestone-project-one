@@ -48,6 +48,10 @@ Thank you for visiting my project - if you have any questions please feel to con
 - For all the information to be contained within one page, with easily navigable sections.
 - For the website to reflect the artist, so that any users who visit the site have a clear idea of the artist's style.
 
+### Design choices
+
+![Colour palette](/imgs/colour-palette.png)
+
 ## Wireframes
 
 I created the following wireframes using [Figma](https://www.figma.com)
