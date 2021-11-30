@@ -49,6 +49,28 @@ Thank you for visiting my project - if you have any questions please feel to con
 - For the website to reflect the artist, so that any users who visit the site have a clear idea of the artist's style.
 
 ## Wireframes and Flowcharts
+### Wireframes
+
+#### Desktop Wireframes
+- [Main section](/screenshots/desktop-main.png)
+- [Discography](/screenshots/desktop-discography.png)
+- [Tour](/screenshots/desktop-tour.png)
+- [Shop](/screenshots/desktop-shop.png)
+- [Contact](/screenshots/desktop-contact.png)
+
+#### Tablet Wireframes
+- [Main section](/screenshots/tablet-main.png)
+- [Discography](/screenshots/tablet-discography.png)
+- [Tour](/screenshots/tablet-tour.png)
+- [Shop](/screenshots/tablet-shop.png)
+- [Contact](/screenshots/tablet-contact.png)
+
+#### Mobile Wireframes
+- [Main section](/screenshots/phone-main.png)
+- [Discography](/screenshots/phone-discography.png)
+- [Tour](/screenshots/phone-tour.png)
+- [Shop](/screenshots/phone-shop.png)
+- [Contact](/screenshots/phone-contact.png)
 
 ## Features
 
