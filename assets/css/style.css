@@ -10,12 +10,21 @@
     --cultured: #fafafaff;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--oxford-blue);
     color: var(--cultured);
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto Condensed;
 }
 
 .main-section {
@@ -25,9 +34,8 @@ body {
 
 .main-section h1 {
     color: var(--cultured);
-    font-family: Roboto Condensed;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 7.2rem;
     position: relative;
     z-index: 2;
 }
