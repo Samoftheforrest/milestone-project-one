@@ -50,7 +50,7 @@ Thank you for visiting my project - if you have any questions please feel to con
 
 ### Design choices
 
-![Colour palette](/imgs/colour-palette.png)
+![Colour palette](colour-palette.png)
 
 ## Wireframes
 
@@ -59,25 +59,25 @@ I created the following wireframes using [Figma](https://www.figma.com)
 These wireframes demonstrate how to the information displayed varies across screen sizes - including any potential hidden content.
 
 #### Desktop Wireframes
-- [Main section](/screenshots/desktop-main.png)
-- [Discography](/screenshots/desktop-discography.png)
-- [Tour](/screenshots/desktop-tour.png)
-- [Shop](/screenshots/desktop-shop.png)
-- [Contact](/screenshots/desktop-contact.png)
+- [Main section](wireframes/desktop-main.png)
+- [Discography](wireframes/desktop-discography.png)
+- [Tour](wireframes/desktop-tour.png)
+- [Shop](wireframes/desktop-shop.png)
+- [Contact](wireframes/desktop-contact.png)
 
 #### Tablet Wireframes
-- [Main section](/screenshots/tablet-main.png)
-- [Discography](/screenshots/tablet-discography.png)
-- [Tour](/screenshots/tablet-tour.png)
-- [Shop](/screenshots/tablet-shop.png)
-- [Contact](/screenshots/tablet-contact.png)
+- [Main section](wireframes/tablet-main.png)
+- [Discography](wireframes/tablet-discography.png)
+- [Tour](wireframes/tablet-tour.png)
+- [Shop](wireframes/tablet-shop.png)
+- [Contact](wireframes/tablet-contact.png)
 
 #### Mobile Wireframes
-- [Main section](/screenshots/phone-main.png)
-- [Discography](/screenshots/phone-discography.png)
-- [Tour](/screenshots/phone-tour.png)
-- [Shop](/screenshots/phone-shop.png)
-- [Contact](/screenshots/phone-contact.png)
+- [Main section](wireframes/phone-main.png)
+- [Discography](wireframes/phone-discography.png)
+- [Tour](wireframes/phone-tour.png)
+- [Shop](wireframes/phone-shop.png)
+- [Contact](wireframes/phone-contact.png)
 
 ## Features
 

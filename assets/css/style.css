@@ -1,0 +1,57 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* Colours */
+:root {
+    --oxford-blue: #002855ff;
+    --usafa-blue: #0353a4ff;
+    --imperial-red: #eb3e3eff;
+    --light-gray: #d6d6d6ff;
+    --cultured: #fafafaff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--oxford-blue);
+    color: var(--cultured);
+}
+
+.main-section {
+    height: 100vh;
+    min-height: 900px;
+}
+
+.main-section h1 {
+    color: var(--cultured);
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 72px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-section a {
+    text-decoration: none;
+    color: var(--cultured);
+}
+
+.first-column {
+    background: url('/assets/imgs/piano.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 900px;
+    height: 100vh;
+}
+
+.first-column .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--oxford-blue);
+    opacity: 0.6;
+}
