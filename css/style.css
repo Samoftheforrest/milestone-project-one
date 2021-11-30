@@ -1,2 +1,14 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* Colours */
+:root {
+    --oxford-blue: #002855ff;
+    --usafa-blue: #0353a4ff;
+    --light-gray: #d6d6d6ff;
+    --cultured: #fafafaff;
+}
+
+h1 {
+    color: var(--oxford-blue);
+}
