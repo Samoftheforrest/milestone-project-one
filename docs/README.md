@@ -14,8 +14,8 @@ Thank you for visiting my project - if you have any questions please feel to con
     - Site owner's goals
     - Design choices
         - Fonts
-            - Roboto condensed
-            - Cabin regular
+            - Roboto Condensed
+            - Cabin
         - Colours
             - Accessibility
         - Structure
