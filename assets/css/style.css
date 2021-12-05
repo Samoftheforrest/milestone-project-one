@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.6;
 }
 
+.second-column {
+    overflow: hidden;
+}
+
 .second-column ul {
     list-style: none;
     padding-top: 25px;
@@ -122,4 +126,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-album-btn:hover {
     text-decoration: underline;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    height: 25%;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 0 10%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-35%);
 }
