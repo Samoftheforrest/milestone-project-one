@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 .second-column ul {
     list-style: none;
     padding-top: 25px;
+    padding-left: 0;
     font-size: 2.1rem;
     width: 75%;
     margin: 0 auto;
@@ -80,4 +81,45 @@ h1, h2, h3, h4, h5, h6 {
 
 .second-column ul a:hover {
     background: var(--usafa-blue);
+}
+
+.featured-album {
+    background-color: var(--usafa-blue);
+    width: 80%;
+    margin: 5rem auto;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.featured-album h2 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0 0 0;
+    margin-bottom: -10px;
+}
+
+.featured-album p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.featured-album-buttons {
+    width: 100%;
+}
+
+.featured-album-btn {
+    background-color: var(--oxford-blue);
+    color: var(--cultured);
+    border: none;
+    margin: 15px;
+    padding: 20px;
+    width: 25%;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.featured-album-btn:hover {
+    text-decoration: underline;
 }
