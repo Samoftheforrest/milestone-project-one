@@ -10,6 +10,8 @@
     --cultured: #fafafaff;
 }
 
+/* General styling */
+
 html {
     font-size: 62.5%;
 }
@@ -26,6 +28,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed;
 }
+
+/* Main section */
 
 .main-section {
     height: 100vh;
@@ -140,4 +144,61 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
     transform: translateY(-35%);
+}
+
+/* Discography section*/
+
+.discography-section {
+    height: 100vh;
+    min-height: 900px;
+}
+
+.discography-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.album-image {
+    overflow: hidden;
+    height: 250px;
+}
+
+.album-image img {
+    max-width:100%;
+}
+
+.album-info {
+    background-color: var(--usafa-blue);
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+.album-details {
+    height: 100%;
+    width: 70%;
+    padding-left: 15px;
+}
+
+.album-details p {
+    margin-bottom: -5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.album-buttons {
+    width: 25%;
+    padding-right: 15px;
+}
+
+.album-buttons a {
+    text-decoration: none;
+    color: var(--cultured);
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.album-buttons a:hover {
+    opacity: 0.8;
 }
