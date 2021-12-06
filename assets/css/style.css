@@ -29,176 +29,32 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed;
 }
 
-/* Main section */
+/* Nav */
 
-.main-section {
-    height: 100vh;
-    min-height: 900px;
+.navbar {
+    background: transparent;
 }
 
-.main-section h1 {
+.navbar-brand {
     color: var(--cultured);
     font-weight: 700;
     font-size: 7.2rem;
-    position: relative;
-    z-index: 2;
 }
 
-.main-section a {
-    text-decoration: none;
+@media (min-width: 992px){
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.nav-link {
     color: var(--cultured);
-}
-
-.first-column {
-    background: url('/assets/imgs/piano.jpg');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    min-height: 900px;
-    height: 100vh;
-}
-
-.first-column .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--oxford-blue);
-    opacity: 0.6;
-}
-
-.second-column {
-    overflow: hidden;
-}
-
-.second-column ul {
-    list-style: none;
-    padding-top: 25px;
-    padding-left: 0;
-    font-size: 2.1rem;
-    width: 75%;
-    margin: 0 auto;
-}
-
-.second-column ul a {
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.second-column ul a:hover {
-    background: var(--usafa-blue);
-}
-
-.featured-album {
-    background-color: var(--usafa-blue);
-    width: 80%;
-    margin: 5rem auto;
-    border-radius: 10px;
-    padding: 50px 0;
-}
-
-.featured-album h2 {
-    font-size: 5.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 15px 0 0 0;
-    margin-bottom: -10px;
-}
-
-.featured-album p {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.featured-album-buttons {
-    width: 100%;
-}
-
-.featured-album-btn {
-    background-color: var(--oxford-blue);
-    color: var(--cultured);
-    border: none;
-    margin: 15px;
-    padding: 20px;
-    width: 25%;
     font-weight: 500;
-    font-size: 2rem;
+    margin-left: 15px;
+    font-size: 2.2rem;
 }
 
-.featured-album-btn:hover {
-    text-decoration: underline;
-}
-
-.image-wrapper {
-    overflow: hidden;
-    height: 25%;
-    min-height: 400px;
-    max-height: 400px;
-    padding: 0 10%;
-}
-
-.image-wrapper img {
-    width: 100%;
-    height: auto;
-    transform: translateY(-35%);
-}
-
-/* Discography section*/
-
-.discography-section {
-    height: 100vh;
-    min-height: 900px;
-}
-
-.discography-title {
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.album-image {
-    overflow: hidden;
-    height: 250px;
-}
-
-.album-image img {
-    max-width:100%;
-}
-
-.album-info {
-    background-color: var(--usafa-blue);
-    height: 60px;
-    border-radius: 0 0 15px 15px;
-}
-
-.album-details {
-    height: 100%;
-    width: 70%;
-    padding-left: 15px;
-}
-
-.album-details p {
-    margin-bottom: -5px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.album-buttons {
-    width: 25%;
-    padding-right: 15px;
-}
-
-.album-buttons a {
-    text-decoration: none;
-    color: var(--cultured);
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-
-.album-buttons a:hover {
-    opacity: 0.8;
+.navbar-toggler {
+    background: var(--cultured);
 }
