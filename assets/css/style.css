@@ -169,3 +169,34 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Discography section*/
+
+.discography-title {
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 15px 45px 15px;
+}
+
+.album-image {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+}
+
+.album-info {
+    background-color: var(--usafa-blue);
+    padding: 15px 20px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 100px;
+}
+
+.album-name, .album-year {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.album-name {
+    font-size: 2rem;
+}
