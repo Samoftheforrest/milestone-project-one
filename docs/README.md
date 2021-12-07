@@ -36,10 +36,12 @@ Thank you for visiting my project - if you have any questions please feel to con
 - To be able to easily find out about the artist's latest releases, tour dates, and merchandise.
 
 ### User Stories
-- As a user, I want to be able to access the artist's discography and merchandise easily.
+- As a user, I want to be able to access the artist's discography
+- As a user, I want to be able to access the artist's merchandise easily.
 - As a user, I would like to see the artist's upcoming tour dates easily.
 - As a user, I would like to be able to get in contact with the artist - including links to social media.
-- As a user, I want the website to be easy to use, and to have a reasonable flow of information.
+- As a user, I want the website to be easy to use.
+- As a user, I expect the page to have a reasonable flow of information.
 - As a user, I want to to be able to access this website on different devices.
 
 ### Site Owner's Goals
@@ -94,3 +96,5 @@ These wireframes demonstrate how to the information displayed varies across scre
 ## Deployment
 
 ## Credits
+### Navbar toggler button styling
+I used [this video](https://www.youtube.com/watch?v=45QSuJaHEss&ab_channel=ADesignerWhoCodes) to help me find a suitable strategy for styling the Bootstrap navbar toggler button.
