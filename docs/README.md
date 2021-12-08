@@ -91,10 +91,61 @@ These wireframes demonstrate how to the information displayed varies across scre
 ### Frameworks
 - [Bootstrap](https://getbootstrap.com/)
 
+## Testing
+ 
+ ### Test Title
+ As a user, I want to be able to access the artist's discography
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I want to be able to access the artist's merchandise easily.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I would like to see the artist's upcoming tour dates easily.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I would like to be able to get in contact with the artist - including links to social media.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I want the website to be easy to use.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I expect the page to have a reasonable flow of information.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+ 
+ ### Test Title
+ As a user, I want to to be able to access this website on different devices.
+ - **Plan**
+ - **Implementation**
+ - **Test**
+
+
 ## Bugs
+### Smooth scrolling between sections not working
+- **Bug**  
+- **Fix**  
+- **Verdict**  
 
 ## Deployment
 
 ## Credits
 ### Navbar toggler button styling
 I used [this video](https://www.youtube.com/watch?v=45QSuJaHEss&ab_channel=ADesignerWhoCodes) to help me find a suitable strategy for styling the Bootstrap navbar toggler button.
+
+Following a meeting with my mentor, we decided a more efficient way to style the navbar toggler button was to replace the toggler icon with Font Awesome's ['bars'](https://fontawesome.com/v5.15/icons/bars) icon - which can be easily styled using the 'color' properties.
