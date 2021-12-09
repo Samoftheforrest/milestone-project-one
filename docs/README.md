@@ -142,10 +142,19 @@ These wireframes demonstrate how to the information displayed varies across scre
 - **Fix**  
 - **Verdict**  
 
+### Bootstrap mobile menu not displaying when toggler button clicked
+- **Bug**  
+- **Fix**  
+- **Verdict**  
+
 ## Deployment
+This page is deployed using [GitHub Pages](https://pages.github.com/).
 
 ## Credits
 ### Navbar toggler button styling
 I used [this video](https://www.youtube.com/watch?v=45QSuJaHEss&ab_channel=ADesignerWhoCodes) to help me find a suitable strategy for styling the Bootstrap navbar toggler button.
 
 Following a meeting with my mentor, we decided a more efficient way to style the navbar toggler button was to replace the toggler icon with Font Awesome's ['bars'](https://fontawesome.com/v5.15/icons/bars) icon - which can be easily styled using the 'color' properties.
+
+### Smooth scrolling
+[This Stack Overflow question](https://stackoverflow.com/questions/53543484/smooth-scrolling-in-css) showed me how to easily implement a smooth scroll feature on my own website.
