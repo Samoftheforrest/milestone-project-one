@@ -30,6 +30,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed;
 }
 
+.discography-title, .tour-title {
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1.5rem 1.5rem 4.5rem 1.5rem;
+}
+
 /* Nav */
 
 .navigation {
@@ -159,13 +166,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Discography section*/
 
-.discography-title {
-    font-size: 5.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 1.5rem 1.5rem 4.5rem 1.5rem;
-}
-
 .album-image {
     overflow: hidden;
     width: 100%;
@@ -208,6 +208,57 @@ h1, h2, h3, h4, h5, h6 {
 
 .fa-spotify {
     margin-right: 1.5rem;
+}
+
+/* Tour section */
+
+#tour-section {
+    min-height: 900px;
+}
+
+.tour-date {
+    background: var(--cultured);
+    color: #000;
+    flex-grow: 2;
+}
+
+.tour-date-number {
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+.tour-date-month {
+    color: var(--imperial-red);
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.tour-info {
+    background: var(--usafa-blue);
+    flex-grow: 8;
+    padding-left: 15px;
+}
+
+.venue-name {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: -1rem;
+}
+
+.venue-city {
+    font-size: 2rem;
+}
+
+.tour-image {
+    overflow: hidden;
+    height: 565px;
+}
+
+.tour-image img {
+    width: 100%;
+    transform: translateY(-25%);
 }
 
 /* Media queries*/
