@@ -153,15 +153,11 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.column-2 .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("../imgs/silurians.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.column-end img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(-30rem);
 }
 
 /* Discography section*/
@@ -220,6 +216,8 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--cultured);
     color: #000;
     flex-grow: 2;
+    max-width: 10.2rem;
+    min-width: 10.2rem;
 }
 
 .tour-date-number {
