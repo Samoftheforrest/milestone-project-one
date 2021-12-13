@@ -158,3 +158,6 @@ Following a meeting with my mentor, we decided a more efficient way to style the
 
 ### Smooth scrolling
 [This Stack Overflow question](https://stackoverflow.com/questions/53543484/smooth-scrolling-in-css) showed me how to easily implement a smooth scroll feature on my own website.
+
+### Object-fit property for imagess
+I discovered how to use the 'object-fit: cover' property to make images fill their container after reading this [Stack Overflow](https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images) question. I used what I learned from this thread on several of the images on my page.

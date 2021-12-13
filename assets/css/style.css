@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed;
 }
 
-.discography-title, .tour-title {
+.discography-title, .tour-title, .shop-title {
     font-size: 5.5rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -259,6 +259,43 @@ h1, h2, h3, h4, h5, h6 {
 .tour-image img {
     width: 100%;
     transform: translateY(-25%);
+}
+
+/* Shop Section */
+
+#shop-section {
+    min-height: 900px;
+}
+
+.shop-image-large {
+    height: 75rem;
+}
+
+.shop-image-small {
+    height: 30rem;
+}
+
+.shop-image-large img, .shop-image-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop-button {
+    color: var(--cultured);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3.5rem;
+    background: var(--usafa-blue);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.shop-button:hover, .shop-button:focus {
+    color: var(--usafa-blue);
+    background-color: var(--cultured);
+    text-decoration: none;
 }
 
 /* Media queries*/
