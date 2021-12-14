@@ -30,11 +30,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto Condensed;
 }
 
+#discography-section, #tour-section, #shop-section, #contact-section {
+    padding: 1.5rem;
+}
+
 .discography-title, .tour-title, .shop-title, .contact-title {
     font-size: 5.5rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 1.5rem 1.5rem 4.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
 /* Nav */
@@ -142,6 +146,13 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     font-size: 2.5rem;
     min-width: 30rem;
+    transition: all 0.3s ease;
+}
+
+.featured-album-btn:hover, .featured-album-btn:focus {
+    text-decoration: none;
+    color: var(--usafa-blue);
+    background: var(--cultured);
 }
 
 .featured-album-cover {
@@ -149,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     border-radius: 1rem;
     overflow: hidden;
-    height: 35rem;
+    height: 40rem;
     position: relative;
 }
 
@@ -157,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: translateY(-30rem);
+    transform: translateY(-30%);
 }
 
 /* Discography section*/
@@ -208,10 +219,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Tour section */
 
-#tour-section {
-    min-height: 90rem;
-}
-
 .tour-date {
     background: var(--cultured);
     color: #000;
@@ -261,10 +268,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Shop Section */
 
-#shop-section {
-    min-height: 90rem;
-}
-
 .shop-image-large {
     height: 75rem;
 }
@@ -298,11 +301,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact section */
 
-#contact-section {
-    min-height: 90rem;
-    padding: 5rem 1.5rem;
-}
-
 #contact-section form label {
     font-weight: 500;
     text-transform: uppercase;
@@ -320,6 +318,21 @@ h1, h2, h3, h4, h5, h6 {
     resize: none;
 }
 
+#contact-section form input[type="submit"] {
+    background: var(--usafa-blue);
+    color: var(--cultured);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 1.5rem 4rem;
+    transition: all 0.3s ease;
+}
+
+#contact-section form input[type="submit"]:hover, #contact-section form input[type="submit"]:focus {
+    background: var(--cultured);
+    color: var(--usafa-blue);
+}
+
 .contact-image {
     height: 60rem;
 }
@@ -330,14 +343,31 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
+.social-icons i {
+    font-size: 3.5rem;
+    margin: 0 2rem;
+}
+
 /* Media queries*/
 
 @media (min-width: 992px) {
+    #discography-section, #tour-section, #shop-section, #contact-section {
+        padding: 5rem 1.5rem;
+    }
+    .discography-title, .tour-title, .shop-title, .contact-title {
+        padding: 1.5rem 4.5rem 2rem 1.5rem;
+    }
     .navbar {
         padding: 1rem 2rem;
     }
     .navbar-collapse {
         display: flex;
         justify-content: flex-end;
+    }
+    .featured-album-cover {
+        height: 35rem;
+    }
+    .column-end img {
+        transform: translateY(-30%);
     }
 }
