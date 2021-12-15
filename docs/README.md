@@ -185,60 +185,76 @@ These wireframes demonstrate how to the information displayed varies across scre
  **As a user, I would like to be able to get in contact with the artist - including links to social media.**
  
  - **Plan**
- 
+ I want to add a section to the page which contains two ways to get in contact with the artist: either through a contact form, or through links to the artist's social media accounts.
  
  - **Implementation**
- 
+ I created a contact section of the page dedicated to containing a contact form, as well as links to the artist's social media.
  
  - **Test**
- 
+ I will fill out and "submit" the form five separate times to ensure that the appropriate information is processed properly. Additionally, I will click on the social media links five times to ensure that they take the user to the correct webpage consistently.
  
  - **Result**
- 
+ The contact form outputted the correct information all five times, and all of the social media links took me to the correct pages.
  
  - **Verdict**
- 
+ Both tests have met their success criteria.
 
  ### **Mobile Responsivity**
  **As a user, I want to to be able to access this website on different devices.**
  
  - **Plan**
- 
+ I want the flow of information on the page, as well as the actual content on the page, to change dependent on the screen size of the device it is being viewed upon.
  
  - **Implementation**
- 
+ I used a combination of Bootstrap classes and CSS media queries in order to change the flow of content on the page dependent on the screen size - I did this in three ways:
+ - To change the order of the content: on smaller devices, I adopted a column view in which the content is one on top of another, whereas on larger devices, some of the content is ordered horizontally.
+ - To remove content on smaller pages: to improve the readability of the page on smaller devices, I decided to only keep the most relevant information.
+ - To alter the order of information on smaller screens: using the Bootstrap "order" class I rearranged some of the content to improve the flow of information.
  
  - **Test**
- 
+ I will use the [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) to resize my browser to emulate three mobile devices (Galaxy S5, iPhone X, Pixel 2) and two tablet devices (iPad, iPad pro) and compare the page layout to the wireframes I created.
  
  - **Result**
- 
+ The pages rearranged as expected on four of the devices (Galaxy S5, iPhone X, Pixel 2 and iPad), but did not on the iPad Pro - on this device, it displays the desktop layout where it is meant to display the tablet view.
  
  - **Verdict**
+I will need to amend the Bootstrap classes on the page to make sure that the desktop layout displays on screens larger than the XL Bootstrap breakpoint. I will add this issue to "Bugs" to make sure it is remedied.
 
+After making the amendments mentioned above - the page's layout on the iPad Pro is now displaying as expected.
 
 ## Bugs
 ### Smooth scrolling between sections not working
 
 - **Bug**  
-
+When a user clicks on one of the nav links, to move to another section of the page, it does nothing. I have added the "scroll behaviour: smooth" property to the html tag within the css - this leads me to believe that the issue will be found within the HTML markup itself.
 
 - **Fix**  
-
+When I examined the HTML markup of the nav ul, I came to the source of the problem - the href attribute contained no '#' before the id name of the section it would move to. I added the '#' in and tested each of the links, which all began to scroll smoothly to the appropriate section.
 
 - **Verdict**  
-
+This feature of the page is now working as expected.
 
 ### Bootstrap mobile menu not displaying when toggler button clicked
 
 - **Bug**  
-
+On smaller screen sizes, the navigation links become contained within a burger menu, which should open when the burger button is clicked. However, clicking on the button does not reveal the nav.
 
 - **Fix**  
-
+During a discussion with my mentor, he mentioned to me that the Bootstrap css link and js script I was using came from different versions of Bootstrap - and that this was not best practice as it could cause issues. I rectified this by making sure all appropriate Bootstrap links/scripts used the same version (4.6.0). After doing this, the burger menu now opens consistently.
 
 - **Verdict**  
+This bug has been resolved, and the element now works as expected.
 
+### Bootstrap layout not applying to iPad pro size devices
+
+- **Bug**  
+When designing this page, I created wireframes for mobile, tablet, and desktop devices - the iPad Pro should display the tablet layout, but it currently displays the desktop layout.
+
+- **Fix**  
+I needed to change the breakpoint between tablet and desktop devices - making it higher to that the tablet breakpoint will include the width dimensions of iPad Pros (1024px). I did this by changing all instances of the 'lg' Botostrap class in my HTML markup to the 'xl' Bootstrap class. This increased the breakpoint of the desktop layout to >1200px - after making this change, the iPad Pro displays the tablet view as intended.
+
+- **Verdict**  
+The bug has now been resolved, and the appropriate layout is displayed on iPad Pros.
 
 ## Deployment
 This page is deployed using [GitHub Pages](https://pages.github.com/).

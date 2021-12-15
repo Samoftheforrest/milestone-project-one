@@ -362,12 +362,18 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-collapse {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
     .featured-album-cover {
         height: 35rem;
     }
     .column-end img {
         transform: translateY(-30%);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-collapse {
+        justify-content: flex-end;
     }
 }
