@@ -17,8 +17,6 @@ Thank you for visiting my project - if you have any questions please feel to con
             - Roboto Condensed
             - Cabin
         - Colours
-            - Accessibility
-        - Structure
 - Wireframes
     - Wireframes
 - Features
@@ -167,19 +165,19 @@ These wireframes demonstrate how to the information displayed varies across scre
  **As a user, I would like to see the artist's upcoming tour dates easily.**
 
  - **Plan**
- 
+ I wanted to give the artist's tour dates their own clear space so that anyone who is reading this section is not distracted by any other content onscreen.
  
  - **Implementation**
- 
+ I created a section dedicated to displaying the artist's most recent tour dates - which includes an attention grabbing image in the hopes of getting users to stop in this section and to consider going to see the artist live.
  
  - **Test**
- 
+ For this test, I enlisted the help of my partner Laura - I wrote her a short quiz asking which venue the artist was playing in on a particular date, and asked her if she could find the information from the website easily.
  
  - **Result**
- 
+ The quiz was returned to me with all the answers correct - my partner's feedback was that the fact that the tour dates have their own section, with a clear title makes them very easy to find, and that the simple layout makes them easily understandable.
  
  - **Verdict**
- 
+ This test has been successful.
 
  ### **Get in Contact with the Artist**
  **As a user, I would like to be able to get in contact with the artist - including links to social media.**
@@ -257,6 +255,11 @@ I needed to change the breakpoint between tablet and desktop devices - making it
 The bug has now been resolved, and the appropriate layout is displayed on iPad Pros.
 
 ## Deployment
+
+### Local Deployment
+
+I created this project using [GitHub](https://github.com/) to store the code and [Gitpod](https://www.gitpod.io/) as my code editor. To store my Gitpod code in GitHub, I used git commits followed by git pushing the code to the repository.
+
 This page is deployed using [GitHub Pages](https://pages.github.com/).
 
 ## Credits
@@ -270,3 +273,8 @@ Following a meeting with my mentor, we decided a more efficient way to style the
 
 ### Object-fit property for imagess
 I discovered how to use the 'object-fit: cover' property to make images fill their container after reading this [Stack Overflow](https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images) question. I used what I learned from this thread on several of the images on my page.
+
+### General Thanks
+- I would like to thank my mentor, Simen, for all of his support and guidance through this project.
+- I would like to thank Unsplash for providing a fantastic selection of free-to-use images.
+- I would like to thank my partner, Laura, for testing my website and providing feedback for improvements.
