@@ -84,11 +84,11 @@ Below, I will go into my colour selection more thoroughly.
 
 ![Colour palette](colour-palette.png)
 
-- #002855: I decided to use this colour as the main background for the page as I felt this cold hue was inkeeping with the artist's style.
-- #0353A4: This colour was used for the page's buttons. I felt that it was inkeeping enough with the overall style of the page, while being different enough from the background as to clearly highlight all buttons.
-- #EB3E3E: The artist expressed interest in directing people toward their tour dates, to achieve this I used red to contrast from the background. Also, I felt that this colour paired well with the image displayed in the tour section.
-- #D6D6D6: I used this colour for the hover effects on all icons - I felt that it was dark enough to clearly show the user that they had highlighted the current icon.
-- #FAFAFA: This culture was used for all of the text on the page. I checked the colour contrast of this colour against the background colour using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - which returned a contrast ratio of 14.02:1, which complies with the WCAG AAA requirements (which is 7:1).
+- `#002855`: I decided to use this colour as the main background for the page as I felt this cold hue was inkeeping with the artist's style.
+- `#0353A4`: This colour was used for the page's buttons. I felt that it was inkeeping enough with the overall style of the page, while being different enough from the background as to clearly highlight all buttons.
+- `#EB3E3E`: The artist expressed interest in directing people toward their tour dates, to achieve this I used red to contrast from the background. Also, I felt that this colour paired well with the image displayed in the tour section.
+- `#D6D6D6`: I used this colour for the hover effects on all icons - I felt that it was dark enough to clearly show the user that they had highlighted the current icon.
+- `#FAFAFA`: This culture was used for all of the text on the page. I checked the colour contrast of this colour against the background colour using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - which returned a contrast ratio of 14.02:1, which complies with the WCAG AAA requirements (which is 7:1).
 
 **Fonts**
 
@@ -138,6 +138,7 @@ These wireframes demonstrate how to the information displayed varies across scre
 
 ### Frameworks
 - [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 ## Testing
  
@@ -163,13 +164,13 @@ These wireframes demonstrate how to the information displayed varies across scre
  **As a user, I want to be able to access the artist's merchandise easily.**
 
  - **Plan**
- I want the user to be able to be redirected to the artist's external merchandise store on Big Cartel when they click on the 'Shop Now' button in the shop section.
+ I want the user to be able to be redirected to the artist's external merchandise store on Big Cartel when they click on the **_Shop Now_** button in the shop section.
  
  - **Implementation**
- In the shop section of the website, I added a clear 'Shop Now' button which includes a link to the Big Cartel page (which opens in a new tab).
+ In the shop section of the website, I added a clear **_Shop Now_** button which includes a link to the Big Cartel page (which opens in a new tab).
 
  - **Test**
- I clicked this link as part of the test above ('Access to Artist's Discography') - I clicked the 'Shop Now' button five times in this test to ensure I was redirected to the correct page without issue.
+ I clicked this link as part of the test above ('Access to Artist's Discography') - I clicked the **_Shop Now_** button five times in this test to ensure I was redirected to the correct page without issue.
 
  - **Result**
  I was taken to the correct web page (Big Cartel) on all five occaisons.
@@ -243,7 +244,7 @@ After making the amendments mentioned above - the page's layout on the iPad Pro 
 When a user clicks on one of the nav links, to move to another section of the page, it does nothing. I have added the "scroll behaviour: smooth" property to the html tag within the css - this leads me to believe that the issue will be found within the HTML markup itself.
 
 - **Fix**  
-When I examined the HTML markup of the nav ul, I came to the source of the problem - the href attribute contained no '#' before the id name of the section it would move to. I added the '#' in and tested each of the links, which all began to scroll smoothly to the appropriate section.
+When I examined the HTML markup of the nav ul, I came to the source of the problem - the href attribute contained no `#` before the id name of the section it would move to. I added the `#` in and tested each of the links, which all began to scroll smoothly to the appropriate section.
 
 - **Verdict**  
 This feature of the page is now working as expected.
@@ -265,7 +266,7 @@ This bug has been resolved, and the element now works as expected.
 When designing this page, I created wireframes for mobile, tablet, and desktop devices - the iPad Pro should display the tablet layout, but it currently displays the desktop layout.
 
 - **Fix**  
-I needed to change the breakpoint between tablet and desktop devices - making it higher to that the tablet breakpoint will include the width dimensions of iPad Pros (1024px). I did this by changing all instances of the 'lg' Botostrap class in my HTML markup to the 'xl' Bootstrap class. This increased the breakpoint of the desktop layout to >1200px - after making this change, the iPad Pro displays the tablet view as intended.
+I needed to change the breakpoint between tablet and desktop devices - making it higher to that the tablet breakpoint will include the width dimensions of iPad Pros (1024px). I did this by changing all instances of the `lg` Botostrap class in my HTML markup to the `xl` Bootstrap class. This increased the breakpoint of the desktop layout to >1200px - after making this change, the iPad Pro displays the tablet view as intended.
 
 - **Verdict**  
 The bug has now been resolved, and the appropriate layout is displayed on iPad Pros.
@@ -282,15 +283,15 @@ This page is deployed using [GitHub Pages](https://pages.github.com/).
 ### Navbar toggler button styling
 I used [this video](https://www.youtube.com/watch?v=45QSuJaHEss&ab_channel=ADesignerWhoCodes) to help me find a suitable strategy for styling the Bootstrap navbar toggler button.
 
-Following a meeting with my mentor, we decided a more efficient way to style the navbar toggler button was to replace the toggler icon with Font Awesome's ['bars'](https://fontawesome.com/v5.15/icons/bars) icon - which can be easily styled using the 'color' properties.
+Following a meeting with my mentor, we decided a more efficient way to style the navbar toggler button was to replace the toggler icon with [Font Awesome - bars](https://fontawesome.com/v5.15/icons/bars) icon - which can be easily styled using the `color` property.
 
 ### Smooth scrolling
 [This Stack Overflow question](https://stackoverflow.com/questions/53543484/smooth-scrolling-in-css) showed me how to easily implement a smooth scroll feature on my own website.
 
 ### Object-fit property for imagess
-I discovered how to use the 'object-fit: cover' property to make images fill their container after reading this [Stack Overflow](https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images) question. I used what I learned from this thread on several of the images on my page.
+I discovered how to use the `object-fit: cover` property to make images fill their container after reading this [Stack Overflow](https://stackoverflow.com/questions/34247337/object-fit-not-affecting-images) question. I used what I learned from this thread on several of the images on my page.
 
 ### General Thanks
-- I would like to thank my mentor, Simen, for all of his support and guidance through this project.
-- I would like to thank Unsplash for providing a fantastic selection of free-to-use images.
+- I would like to thank my mentor, [Simen](https://github.com/Eventyret), for all of his support and guidance throughout this project.
+- I would like to thank [Unsplash](https://unsplash.com/) for providing a fantastic selection of free-to-use images.
 - I would like to thank my partner, Laura, for testing my website and providing feedback for improvements.
