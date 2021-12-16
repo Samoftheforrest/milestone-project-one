@@ -82,7 +82,7 @@ I used [Coolors](https://coolors.co/) to create my colour scheme. The artist's s
 
 Below, I will go into my colour selection more thoroughly.
 
-![Colour palette](colour-palette.png)
+![Colour palette](docs/colour-palette.png)
 
 - `#002855`: I decided to use this colour as the main background for the page as I felt this cold hue was inkeeping with the artist's style.
 - `#0353A4`: This colour was used for the page's buttons. I felt that it was inkeeping enough with the overall style of the page, while being different enough from the background as to clearly highlight all buttons.
