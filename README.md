@@ -266,7 +266,7 @@ This bug has been resolved, and the element now works as expected.
 When designing this page, I created wireframes for mobile, tablet, and desktop devices - the iPad Pro should display the tablet layout, but it currently displays the desktop layout.
 
 - **Fix**  
-I needed to change the breakpoint between tablet and desktop devices - making it higher to that the tablet breakpoint will include the width dimensions of iPad Pros (1024px). I did this by changing all instances of the `lg` Botostrap class in my HTML markup to the `xl` Bootstrap class. This increased the breakpoint of the desktop layout to >1200px - after making this change, the iPad Pro displays the tablet view as intended.
+I needed to change the breakpoint between tablet and desktop devices - making it higher to that the tablet breakpoint will include the width dimensions of iPad Pros (`1024px`). I did this by changing all instances of the `lg` Botostrap class in my HTML markup to the `xl` Bootstrap class. This increased the breakpoint of the desktop layout to `>1200px` - after making this change, the iPad Pro displays the tablet view as intended.
 
 - **Verdict**  
 The bug has now been resolved, and the appropriate layout is displayed on iPad Pros.
