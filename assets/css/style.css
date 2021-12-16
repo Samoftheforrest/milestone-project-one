@@ -207,6 +207,15 @@ input[type="submit"]:focus {
 
 /* Discography section*/
 
+.album-card {
+    transition: all 0.3s ease-in-out;
+}
+
+.album-card:hover, 
+.album-card:focus {
+    transform: scale(1.05);
+}
+
 .album-image {
     overflow: hidden;
     width: 100%;
