@@ -8,26 +8,42 @@ Here I have created a web page for the fictional artist "SAWYL". This is a place
 Thank you for visiting my project - if you have any questions please feel to contact me via my GitHub contact details.
 
 ## Table of contents
-- UX
-    - User goals
-    - User stories
-    - Site owner's goals
-    - Design choices
-        - Fonts
-            - Roboto Condensed
-            - Cabin
-        - Colours
-- Wireframes
-    - Wireframes
-- Features
-- Technologies used
-    - Languages
-    - Libraries
-    - Tools
-- Bugs
-- Deployment
-    - GitHub Pages
-- Credits
+- [Arist Page - SAWYL](#arist-page---sawyl)
+  * [Goals for project](#goals-for-project)
+  * [Table of contents](#table-of-contents)
+  * [UX](#ux)
+    + [User Goals](#user-goals)
+    + [User Stories](#user-stories)
+    + [Site Owner's Goals](#site-owner-s-goals)
+    + [User Requirements and Expectations](#user-requirements-and-expectations)
+    + [Design choices](#design-choices)
+  * [Wireframes](#wireframes)
+      - [Desktop Wireframes](#desktop-wireframes)
+      - [Tablet Wireframes](#tablet-wireframes)
+      - [Mobile Wireframes](#mobile-wireframes)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+    + [Features to be implemented](#features-to-be-implemented)
+  * [Technologies used](#technologies-used)
+    + [Languages](#languages)
+    + [Frameworks](#frameworks)
+  * [Testing](#testing)
+    + [Access to Artist's Discography](#access-to-artists-discography)
+    + [Access to Merchandise](#access-to-merchandise)
+    + [Tour Dates Visibility](#tour-dates-visibility)
+    + [Get in Contact with the Artist](#get-in-contact-with-the-artist)
+    + [Mobile Responsivity](#mobile-responsivity)
+  * [Bugs](#bugs)
+    + [Smooth scrolling between sections not working](#smooth-scrolling-between-sections-not-working)
+    + [Bootstrap mobile menu not displaying when toggler button clicked](#bootstrap-mobile-menu-not-displaying-when-toggler-button-clicked)
+    + [Bootstrap layout not applying to iPad pro size devices](#bootstrap-layout-not-applying-to-ipad-pro-size-devices)
+  * [Deployment](#deployment)
+    + [Local Deployment](#local-deployment)
+  * [Credits](#credits)
+    + [Navbar toggler button styling](#navbar-toggler-button-styling)
+    + [Smooth scrolling](#smooth-scrolling)
+    + [Object-fit property for imagess](#object-fit-property-for-imagess)
+    + [General Thanks](#general-thanks)
 ## UX
 ### User Goals
 - The website must be responsive, working on a range of screen sizes (desktop, tablet, phones, etc.).
