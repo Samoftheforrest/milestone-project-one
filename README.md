@@ -273,11 +273,49 @@ The bug has now been resolved, and the appropriate layout is displayed on iPad P
 
 ## Deployment
 
-### Local Deployment
+### Local Development
 
 I created this project using [GitHub](https://github.com/) to store the code and [Gitpod](https://www.gitpod.io/) as my code editor. To store my Gitpod code in GitHub, I used git commits followed by git pushing the code to the repository.
 
-This page is deployed using [GitHub Pages](https://pages.github.com/).
+This project can be run locally by running the following steps:
+
+1. Clone the project
+  - Navigate to the [project repo](https://github.com/Samoftheforrest/sawyl)
+  - Click the 'code' button (highlighted in the image below) - from here you have two options
+    1. Open a terminal and run the following the command: `git clone https://github.com/Samoftheforrest/sawyl.git`
+    2. Select 'download ZIP' to download a the files
+
+
+    ![Clone Repo](docs/screenshots/setup/github-repo.png)
+
+
+2. Navigate to, and open, the cloned/downloaded folder in your code editor, through the following steps
+  - File -> open folder
+  - Navigate through your file directory to the place where the repo is cloned/downloaded
+  - Select "open folder"
+3. Run a live server using your preferred method - during the creation of this project, I used two different live server
+  - [VScode Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - this one is simple to run: right-click on the index.html file, and from the menu, select "open with live server"
+  - Run a python live server with the following command `python3 -m http.server` - for this method, a python installation is required.
+
+### Deployment
+
+This page is deployed using [GitHub Pages](https://pages.github.com/) - below I will outline the required steps for setting up a github page. For the following example, I will use this project's repo as an example.
+
+1. Navigate to the main page of the project repo, and click the 'settings' tab
+
+![Settings](docs/screenshots/setup/pages-1.png)
+
+2. On the following page, select 'pages' from the sidebar 
+
+**NOTE: The 'repository name' in the 'options' tab will dictate the end of your URL** - for example: my repository name is 'sawyl', so the URL for my GitHub page will be samoftheforrest.github.io/sawyl/.
+
+![Pages](docs/screenshots/setup/pages-2.png)
+
+3. MAke sure the branch is set to 'main' and the folder set to 'root' - click save to publish your GitHub page!
+
+![Branch and root](docs/screenshots/setup/pages-3.png)
+
+4. Following this, any time you commit and push to your repo, your GitHub page will automatically update.
 
 ## Credits
 ### Navbar toggler button styling
