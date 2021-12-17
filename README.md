@@ -151,6 +151,10 @@ These wireframes demonstrate how to the information displayed varies across scre
  - **Implementation**
  In each of these sections, I included links that leads to the artist's music in a different ways: the main section and discography section give the user options to either stream the artist's music by taking them to Spotify, or to buy the album directly from Bandcamp; then, in the shop section, the link takes the user to the artist's Big Cartel page.
 
+ Example:
+
+ ![User story one](docs/screenshots/user-story-1.png)
+
  - **Test**
  I went through all of the possible links that could lead to the artist's discography and clicked them five times to ensure that they took the user to the correct page consistently.
 
@@ -169,6 +173,10 @@ These wireframes demonstrate how to the information displayed varies across scre
  - **Implementation**
  In the shop section of the website, I added a clear **_Shop Now_** button which includes a link to the Big Cartel page (which opens in a new tab).
 
+ Example:
+
+ ![User story two](docs/screenshots/user-story-2.png)
+
  - **Test**
  I clicked this link as part of the test above ('Access to Artist's Discography') - I clicked the **_Shop Now_** button five times in this test to ensure I was redirected to the correct page without issue.
 
@@ -186,6 +194,10 @@ These wireframes demonstrate how to the information displayed varies across scre
  
  - **Implementation**
  I created a section dedicated to displaying the artist's most recent tour dates - which includes an attention grabbing image in the hopes of getting users to stop in this section and to consider going to see the artist live.
+
+ Example:
+
+ ![User story three](docs/screenshots/user-story-3.png)
  
  - **Test**
  For this test, I enlisted the help of my partner Laura - I wrote her a short quiz asking which venue the artist was playing in on a particular date, and asked her if she could find the information from the website easily.
@@ -204,6 +216,10 @@ These wireframes demonstrate how to the information displayed varies across scre
  
  - **Implementation**
  I created a contact section of the page dedicated to containing a contact form, as well as links to the artist's social media.
+
+ Example:
+
+ ![User story four](docs/screenshots/user-story-4.png)
  
  - **Test**
  I will fill out and "submit" the form five separate times to ensure that the appropriate information is processed properly. Additionally, I will click on the social media links five times to ensure that they take the user to the correct webpage consistently.
@@ -225,6 +241,12 @@ These wireframes demonstrate how to the information displayed varies across scre
  - To change the order of the content: on smaller devices, I adopted a column view in which the content is one on top of another, whereas on larger devices, some of the content is ordered horizontally.
  - To remove content on smaller pages: to improve the readability of the page on smaller devices, I decided to only keep the most relevant information.
  - To alter the order of information on smaller screens: using the Bootstrap "order" class I rearranged some of the content to improve the flow of information.
+
+ Examples:
+
+ ![User story five - example one](docs/screenshots/user-story-5(1).png)
+
+ ![User story five - example two](docs/screenshots/user-story-5(2).png)
  
  - **Test**
  I will use the [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) to resize my browser to emulate three mobile devices (Galaxy S5, iPhone X, Pixel 2) and two tablet devices (iPad, iPad pro) and compare the page layout to the wireframes I created.
