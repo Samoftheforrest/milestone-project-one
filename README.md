@@ -311,7 +311,7 @@ This page is deployed using [GitHub Pages](https://pages.github.com/) - below I 
 
 ![Pages](docs/screenshots/setup/pages-2.png)
 
-3. MAke sure the branch is set to 'main' and the folder set to 'root' - click save to publish your GitHub page!
+3. Make sure the branch is set to 'main' and the folder set to 'root' - click save to publish your GitHub page!
 
 ![Branch and root](docs/screenshots/setup/pages-3.png)
 
